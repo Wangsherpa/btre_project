@@ -1,0 +1,41 @@
+~~~~~~~~~~~ BASIC GIT COMMANDS ~~~~~~~~~~~~~~~
+
+	# Check git version
+git --version
+git help init (all about init)
+
+# Configure git
+git config --global user.name "Name"
+git config --global user.email "email"
+git config --global core.editor "notepad"
+git config --list
+
+# Track director 
+git init
+
+# create a file
+touch list.txt
+
+git add list.txt
+
+# Commit
+git commit -m (m stands for message) "Create shoping list"
+
+git status
+git log (tell us the history so far)
+.
+.
+.
+git commit -m "Restructure list: new headings for different items"
+
+# Check most recent commit
+git log -1
+# see what changes are made
+git diff
+
+# Commit again
+git add list.txt
+git commit -m "Add fruit and vegetables"
+
+# check log 
+git log

@@ -1,0 +1,1 @@
+P://django/"My Project"/venv/scripts/activate.bat
